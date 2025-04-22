@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+#projects,
+#contact,
+#about {
+  scroll-margin-top: 64px; /* shift anchor position */
+}
